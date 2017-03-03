@@ -1,0 +1,19 @@
+<!--使用extends来继承layout模板-->
+{% extends 'layout.html' %}
+<!--
+{% block title %}My Page{% endblock %}会覆盖模板中的title模块
+-->
+<!--
+{% block head %}
+{% parent %}  会继承模板中引入的样式文件，然后新增下面引入的文件
+<link rel="stylesheet" href="/public/css/admin.css">
+{% endblock %}
+-->
+<!--引入模板中的main模块-->
+{% block main %}
+<div class="jumbotron">
+    <h1>Hello, {{userInfo.username}}!</h1>
+    <p>欢迎光临我的博客！</p>
+    <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+</div>
+{% endblock %}
