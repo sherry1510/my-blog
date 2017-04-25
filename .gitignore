@@ -1,0 +1,30 @@
+# Custom.gitignore
+
+
+
+
+
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+#.ideaºÍnode_modulesÄ¿Â¼
+.idea/
+node_modules/
+
+ 
+
+
